@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex Box Task 2</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .main{
+      background-color: rgb(202, 224, 202);
+      height:100vh ;
+      width:100vw;
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .top-box{
+      background-color: white;
+      width: 24em;
+      padding: 10px;
+      font-size: 16px;
+      height: 8em;
+
+    }
+    .b-box{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .l-box{
+      background-color: rgb(15, 171, 171);
+      font-size: 12px;
+      height: 150px;
+      padding: 20px;
+      width: 190px;
+    }
+    .r-box{
+    
+      background-color: rgb(18, 215, 215);
+      height: 150px;
+      width: 190px;
+      font-size: 12px;
+      padding: 10px;
+
+    }
+    button{
+      background-color: greenyellow;
+      color: aliceblue;
+      width: 70%;
+      height:25%;
+      border-radius: 10px;
+      border: none;
+      
+    }
+    h1{
+      color: rgb(59, 185, 185);
+      font-size: 19px;
+    }
+    h2{
+      font-size: 17px;
+      color: rgb(164, 231, 64);
+    }
+    .p{
+      color:white;
+    }
+    .h{
+      color: white;
+    }
+    samp{
+      font-size: 20px;
+    }
+    @media(max-width:420px){
+      .top-box{
+        width: 190px;
+        height: 200px;
+      }
+      .b-box{
+        justify-content: center;
+      }
+  }
+
+
+
+  </style>
+</head>
+<body>
+  <div class="main">
+
+    <div class="top-box">
+
+      <h1>Join our community</h1>
+      
+      <h2>30-day, hassle-free money back guarantee</h2>
+      <p>Gain access to our full library of tutorials along with expert code reviews. 
+        Perfect for any developers who are serious about honing their skills.</p>
+      </div>
+      <div class="b-box">
+
+        
+        <div class="l-box">
+          
+          <h2 class="h">Monthly Subscription</h2>
+          
+          
+          <p class="p"> <samp><b>&dollar;29 </b></samp>per month</p>
+          
+          <p class="p"> Full access for less than &dollar;1 a day</p>
+          
+          
+        <button>Sign Up</button>
+      </div>
+      <div class="r-box">
+        
+        <h1 class="p"><b>Why Us</b></h1>
+        
+        <p class="p">Tutorials by industry experts
+          Peer &amp; expert code review
+          Coding exercises
+          Access to our GitHub repos
+          Community forum
+          Flashcard decks
+          New videos every week</p>
+          
+          
+          
+        </div>
+      </div>
+      </div>
+    </body>
+  </html>
